@@ -1,0 +1,387 @@
+body,h1,h2,h3,p,ul,li {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1360px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cor-1 {
+  color: hsl(193, 100%, 96%);
+}
+.cor-2 {
+  color: hsl(192, 100%, 9%);
+}
+.cor-3 {
+  color: hsl(208, 11%, 55%);
+}
+
+.botao {
+  display: inline-block;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 30px;
+  padding: 15px 60px;
+  transition: 0.5s;
+}
+
+
+/*INTRODUÇÃO*/
+
+.introducao {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.header img {
+  max-height: 40px;
+}
+
+.header a {
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+}
+
+.header a:hover {
+  color: hsl(208, 11%, 55%);
+}
+
+
+.introducao-build {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.build-conteudo {
+  align-self: center;
+}
+
+.build-conteudo h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  max-width: 20ch;
+  margin-bottom: 30px;
+}
+
+.build-conteudo p {
+  margin-bottom: 50px;
+  max-width: 50ch;
+}
+
+.build-conteudo a {
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  opacity: 1;
+}
+
+.build-conteudo a:hover {
+  opacity: 0.7;
+}
+
+
+/*MAIN*/
+
+.beneficios {
+  margin-bottom: 120px; 
+  margin-top: 80px;
+  display: grid;
+}
+
+.beneficios-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px 30px 0px 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: 40px;
+}
+
+.beneficios-conteudo {
+  align-self: center;
+  justify-self: end;
+  padding-left: 80px;
+}
+
+.beneficios-conteudo h2 {
+  margin-bottom: 30px;
+  color: hsl(192, 100%, 9%);
+}
+
+.beneficios-conteudo p {
+  color: hsl(208, 11%, 55%);
+  
+}
+
+.beneficios-img {
+  display: grid;
+}
+
+.beneficios-item:nth-child(odd) img{
+  justify-self: end;
+}
+.beneficios-item:nth-child(even) img{
+  justify-self: center;
+}
+
+.beneficios-img img {
+  max-height: 300px;
+}
+
+
+/*iniciar*/
+.iniciar {
+  display: grid;
+  justify-content: center;
+}
+
+.iniciar-conteudo {
+  background: #fff;
+  padding: 60px 80px 40px 80px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  margin-bottom: -80px;
+  display: grid;
+}
+
+.iniciar-conteudo h2 {
+  margin-bottom: 30px;
+  font-size: 3.4vw;
+}
+
+.iniciar-conteudo a {
+  text-align: center;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  opacity: 1;
+  justify-self: center;
+  padding: 20px 90px;
+  font-weight: 700;
+  font-size: 2.4vw;
+}
+
+.iniciar-conteudo a:hover {
+  opacity: 0.7;
+}
+
+/*FOOTER*/
+
+.footer {
+  background: #00252E;
+  color: hsl(193, 100%, 96%);
+  padding: 140px 70px 20px 70px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+  font-size: .900rem;
+}
+
+.footer-logo {
+  max-height: 40px;
+  margin-bottom: 40px;
+  grid-column: 1/-1;
+}
+
+.contato li {
+  max-width: 43ch;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.contato li:first-child{
+  align-items: flex-start;
+}
+.contato li:first-child div {
+  position: relative;
+  top: 4px;
+}
+
+.about-us li{
+  margin-bottom: 20px;
+}
+
+.blog li{
+  margin-bottom: 20px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 10px;
+}
+
+.redes-sociais img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.copyright {
+  grid-column: 1/-1;
+  text-align: end;
+}
+
+.atribuicao {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*MEDIAS*/
+
+@media (max-width: 900px) {
+  .header img {
+    max-width: 20vw;
+  }
+  .header a {
+    font-size: 2vw;
+    padding: 10px 40px;
+  }
+
+  .introducao-build {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 60px;
+  }
+  .build-conteudo {
+    display: grid;
+    justify-items: center;
+  }
+  .build-conteudo h1 span {
+    margin-left: 17px;
+  }
+  .build-conteudo p {
+    margin-bottom: 30px;
+  }
+
+  .beneficios-item {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .beneficios-img {
+    grid-row: 1;
+  }
+  .beneficios-img img {
+    justify-self: center !important;
+  }
+  .beneficios-conteudo {
+    padding-left: 0px;
+  }
+  .beneficios-conteudo h2 {
+    text-align: center;
+  }
+
+  .iniciar-conteudo {
+    padding: 40px 20px 40px 20px;
+  }
+  .iniciar-conteudo a {
+    padding: 15px 40px;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-us {
+    text-align: center;
+  }
+  .redes-sociais {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .build-conteudo h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .build-conteudo p {
+    font-size: .875rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .beneficios {
+    gap: 30px;
+  }
+  .beneficios-item {
+    margin: 0px;
+  }
+  .beneficios-conteudo h2 {
+    font-size: 5vw;
+  }
+  .beneficios-conteudo p {
+    font-size: .750rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 485px) {
+  .header {
+    padding-top: 20px;
+  }
+  .header a {
+    font-size: 2vw;
+    padding: 5px 20px;
+  }
+  .introducao-build {
+    margin-top: 60px;
+  }
+  .build-conteudo a {
+    font-size: .750rem;
+    padding: 10px 40px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    font-size: .875rem;
+  }
+  .footer-logo {
+    max-width: 40vw;
+  }
+  .about-us {
+    text-align: start;
+  }
+  .copyright {
+    text-align: center;
+    font-size: .700rem;
+  }
+}
