@@ -189,7 +189,7 @@ img {
   color: #fff;
   opacity: 1;
   justify-self: center;
-  padding: 20px 90px;
+  padding: 20px 80px;
   font-weight: 700;
   font-size: 2.4vw;
 }
@@ -383,5 +383,13 @@ img {
   .copyright {
     text-align: center;
     font-size: .700rem;
+  }
+}
+@media (min-width: 900px) {
+  .iniciar-conteudo h2 {
+    font-size: 2rem;
+  }
+  .iniciar-conteudo a {
+    font-size: 1.3rem;
   }
 }
