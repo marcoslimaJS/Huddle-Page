@@ -1,3 +1,8 @@
+## Huddle Page: https://huddle-page-kappa.vercel.app/
+
+[👉Acesse a página aqui👈](https://huddle-page-kappa.vercel.app/)
+
+
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
