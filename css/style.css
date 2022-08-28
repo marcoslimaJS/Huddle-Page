@@ -267,11 +267,11 @@ img {
 
 @media (max-width: 900px) {
   .header img {
-    max-width: 20vw;
+    max-width: 30vw;
   }
   .header a {
-    font-size: 2vw;
-    padding: 10px 40px;
+    font-size: 2.5vw;
+    padding: px 60px;
   }
 
   .introducao-build {
@@ -359,8 +359,8 @@ img {
     padding-top: 20px;
   }
   .header a {
-    font-size: 2vw;
-    padding: 5px 20px;
+    font-size: 3vw;
+    padding: 10px 30px;
   }
   .introducao-build {
     margin-top: 60px;
